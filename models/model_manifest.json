@@ -1,0 +1,28 @@
+{
+    "schema_version": "1",
+    "open_source": true,
+    "model_name": "poker44_ml15_1",
+    "model_version": "15.1",
+    "framework": "pytorch-torchscript",
+    "license": "MIT",
+    "repo_url": "https://github.com/tomkaba/poker44-miner-ml15_1",
+    "repo_commit": "TO_BE_FILLED_AFTER_COMMIT",
+    "inference_mode": "local",
+    "training_data_statement": "Trained with benchmark groundtruth",
+    "data_attestation": "This miner does not train on validator-private human data.",
+    "private_data_attestation": "This miner does not train on validator-private human data.",
+    "implementation_files": [
+        "weights/gen15_1_10_170____090_hardened.ts",
+        "neurons/miner.py",
+        "poker44/__init__.py",
+        "poker44/base/miner.py",
+        "poker44/base/neuron.py",
+        "poker44/miner_heuristics.py",
+        "poker44/utils/config.py",
+        "poker44/utils/misc.py",
+        "poker44/utils/model_manifest.py",
+        "poker44/validator/synapse.py"
+    ],
+    "implementation_sha256": "2ebb31764de0e70d1d1ac1e270d6a1570a9613da4ee3e6caacfa77bacc709f4f",
+    "notes": "Gen15-1 neural network scorer (artifact gen15_1_10_170____090_hardened)."
+}
